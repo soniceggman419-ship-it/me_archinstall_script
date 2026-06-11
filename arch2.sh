@@ -9,5 +9,6 @@ sleep 1
 echo Enter the password for you user
 passwd elijah
 reflector --latest 5 --country US --protocol http,https rate --save /etc/pacman.d/mirrorlist
+pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
