@@ -3,7 +3,7 @@ to start the install can curl to run the script but don't because this is danger
 ```bash
 curl https://raw.githubusercontent.com/soniceggman419-ship-it/me_archinstall_script/refs/heads/main/arch1.sh >> /tmp/arch1.sh
 ```
-and 
+if everything look in the scriptand 
 ```bash
 bash /tmp/arch1.sh
 ```
